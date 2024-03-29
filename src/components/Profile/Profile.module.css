@@ -1,0 +1,19 @@
+.container {
+  max-width: 500px;
+  margin: 50px auto 0px auto;
+  border: 3px solid black;
+  border-radius: 2%;
+}
+
+.infoCard {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.image {
+  margin: 20px auto 20px auto;
+  width: 40%;
+  border-radius: 50%;
+  background-color: rgb(35, 35, 35);
+}
