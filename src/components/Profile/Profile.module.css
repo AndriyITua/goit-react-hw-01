@@ -1,8 +1,9 @@
 .container {
-  max-width: 500px;
-  margin: 50px auto 0px auto;
-  border: 3px solid black;
+  max-width: 340px;
+  margin: 50px auto 30px auto;
+  border: 2px solid black;
   border-radius: 2%;
+  font-family: Arial;
 }
 
 .infoCard {
@@ -12,8 +13,52 @@
 }
 
 .image {
-  margin: 20px auto 20px auto;
+  margin: 10px auto 10px auto;
   width: 40%;
   border-radius: 50%;
   background-color: rgb(35, 35, 35);
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.tag {
+  color: rgb(132, 132, 132);
+}
+
+.location {
+  color: rgb(132, 132, 132);
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.item {
+  background-color: rgb(219, 217, 217);
+  border-top: 2px solid rgb(138, 138, 138);
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.item:nth-child(2) {
+  border-left: 2px solid rgb(138, 138, 138);
+  border-right: 2px solid rgb(138, 138, 138);
+}
+
+.title {
+  display: block;
+  width: 110px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.quantity {
+  font-size: 20px;
+  font-weight: 700;
 }
