@@ -4,6 +4,7 @@
   border: 2px solid black;
   border-radius: 2%;
   font-family: Arial;
+  overflow: hidden;
 }
 
 .infoCard {
@@ -44,6 +45,7 @@
   border-top: 2px solid rgb(138, 138, 138);
   padding: 10px 0px;
   text-align: center;
+  width: 112px;
 }
 
 .item:nth-child(2) {
@@ -53,12 +55,11 @@
 
 .title {
   display: block;
-  width: 110px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
 }
 
 .quantity {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
 }
