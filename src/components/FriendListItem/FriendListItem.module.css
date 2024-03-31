@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  padding: 15px 0px;
+  width: 90px;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: 550;
+}
+
+.indicator {
+  padding-bottom: 10px;
+}
+.online {
+  color: green;
+}
+.offline {
+  color: red;
+}

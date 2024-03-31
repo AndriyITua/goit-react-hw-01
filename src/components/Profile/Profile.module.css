@@ -3,13 +3,10 @@
   margin: 50px auto 30px auto;
   border: 2px solid black;
   border-radius: 2%;
-  font-family: Arial;
   overflow: hidden;
 }
 
 .infoCard {
-  display: flex;
-  flex-direction: column;
   text-align: center;
 }
 

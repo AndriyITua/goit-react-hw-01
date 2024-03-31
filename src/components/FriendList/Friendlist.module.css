@@ -1,0 +1,17 @@
+.list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.item {
+  list-style: none;
+  width: 120px;
+  border: 2px solid rgb(35, 35, 35);
+  border-radius: 10%;
+  overflow: hidden;
+  margin-right: 20px;
+}
+.item:nth-child(5) {
+  margin-right: 0px;
+}

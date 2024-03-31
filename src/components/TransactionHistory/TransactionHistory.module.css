@@ -1,0 +1,24 @@
+.container {
+  margin: 0px auto;
+  margin-bottom: 50px;
+  border-collapse: collapse;
+}
+
+.title {
+  background-color: rgb(67, 67, 67);
+}
+
+.titleName {
+  color: white;
+  padding: 5px 80px;
+  border: 1.5px solid black;
+}
+
+.row:nth-child(2n) {
+  background-color: rgb(199, 199, 199);
+}
+
+.element {
+  text-align: center;
+  border: 1.5px solid;
+}
